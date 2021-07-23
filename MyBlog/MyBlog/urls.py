@@ -15,7 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-
+import os
+import django
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "MyBlog.settings")# project_name 项目名称
+django.setup()
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
