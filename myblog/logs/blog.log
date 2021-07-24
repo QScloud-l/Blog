@@ -366,3 +366,157 @@ INFO 2021-07-24 23:55:37,252 basehttp 154 "GET /imagecode/?uuid=28f68502-2582-44
 INFO 2021-07-24 23:55:45,851 basehttp 154 "GET /imagecode/?uuid=4c60837b-8ade-44ed-9e1d-df24cbc50256 HTTP/1.1" 200 3108
 INFO 2021-07-24 23:55:49,217 views 116 801017
 INFO 2021-07-24 23:55:49,420 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=sgji&uuid=4c60837b-8ade-44ed-9e1d-df24cbc50256 HTTP/1.1" 200 63
+INFO 2021-07-24 23:56:34,482 basehttp 154 "POST /register/ HTTP/1.1" 200 33
+INFO 2021-07-25 00:05:29,080 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 00:05:29,199 basehttp 154 "GET /imagecode/?uuid=ebc0708e-5aa1-4614-847f-cabadd28bb71 HTTP/1.1" 200 2569
+INFO 2021-07-25 00:05:32,331 basehttp 154 "GET / HTTP/1.1" 200 11726
+WARNING 2021-07-25 00:05:32,356 log 222 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2021-07-25 00:05:32,357 log 222 Not Found: /md_css/monokai.css
+WARNING 2021-07-25 00:05:32,358 basehttp 154 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2021-07-25 00:05:32,363 log 222 Not Found: /common/common.css
+WARNING 2021-07-25 00:05:32,364 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2021-07-25 00:05:32,367 log 222 Not Found: /common/jquery.pagination.css
+WARNING 2021-07-25 00:05:32,369 log 222 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-07-25 00:05:32,369 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2021-07-25 00:05:32,370 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2021-07-25 00:05:32,372 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2021-07-25 00:05:32,376 log 222 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-07-25 00:05:32,380 log 222 Not Found: /js/vue-2.5.16.js
+WARNING 2021-07-25 00:05:32,380 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2021-07-25 00:05:32,381 basehttp 154 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2021-07-25 00:05:32,386 log 222 Not Found: /js/host.js
+WARNING 2021-07-25 00:05:32,386 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2021-07-25 00:05:32,391 log 222 Not Found: /js/common.js
+WARNING 2021-07-25 00:05:32,391 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2021-07-25 00:05:32,398 log 222 Not Found: /js/index.js
+WARNING 2021-07-25 00:05:32,399 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2021-07-25 00:05:32,404 log 222 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-07-25 00:05:32,404 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2021-07-25 00:05:32,410 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:05:32,411 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2021-07-25 00:05:32,702 log 222 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-07-25 00:05:32,702 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2021-07-25 00:05:32,707 log 222 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-07-25 00:05:32,708 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2021-07-25 00:05:32,715 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:05:32,716 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2021-07-25 00:05:32,745 log 222 Not Found: /js/host.js
+WARNING 2021-07-25 00:05:32,745 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2021-07-25 00:05:32,755 log 222 Not Found: /js/common.js
+WARNING 2021-07-25 00:05:32,756 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2021-07-25 00:05:32,763 log 222 Not Found: /js/index.js
+WARNING 2021-07-25 00:05:32,764 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2021-07-25 00:05:32,770 log 222 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-07-25 00:05:32,770 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+INFO 2021-07-25 00:05:57,948 basehttp 154 "GET / HTTP/1.1" 200 11726
+WARNING 2021-07-25 00:05:57,974 log 222 Not Found: /bootstrap/css/bootstrap.min.css
+WARNING 2021-07-25 00:05:57,977 log 222 Not Found: /md_css/monokai.css
+WARNING 2021-07-25 00:05:57,979 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2021-07-25 00:05:57,983 log 222 Not Found: /common/common.css
+WARNING 2021-07-25 00:05:57,986 log 222 Not Found: /common/jquery.pagination.css
+WARNING 2021-07-25 00:05:57,987 basehttp 154 "GET /bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2712
+WARNING 2021-07-25 00:05:57,987 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2021-07-25 00:05:57,988 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2021-07-25 00:05:57,990 log 222 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-07-25 00:05:57,992 log 222 Not Found: /js/vue-2.5.16.js
+WARNING 2021-07-25 00:05:57,995 log 222 Not Found: /js/axios-0.18.0.min.js
+WARNING 2021-07-25 00:05:57,996 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2021-07-25 00:05:57,996 basehttp 154 "GET /js/vue-2.5.16.js HTTP/1.1" 404 2667
+WARNING 2021-07-25 00:05:57,997 basehttp 154 "GET /js/axios-0.18.0.min.js HTTP/1.1" 404 2685
+WARNING 2021-07-25 00:05:58,005 log 222 Not Found: /js/host.js
+WARNING 2021-07-25 00:05:58,008 log 222 Not Found: /js/common.js
+WARNING 2021-07-25 00:05:58,009 log 222 Not Found: /js/jquery-1.12.4.min.js
+WARNING 2021-07-25 00:05:58,010 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2021-07-25 00:05:58,010 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2021-07-25 00:05:58,011 basehttp 154 "GET /js/jquery-1.12.4.min.js HTTP/1.1" 404 2688
+WARNING 2021-07-25 00:05:58,022 log 222 Not Found: /js/index.js
+WARNING 2021-07-25 00:05:58,024 log 222 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-07-25 00:05:58,027 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:05:58,028 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2021-07-25 00:05:58,029 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+WARNING 2021-07-25 00:05:58,032 log 222 Not Found: /js/host.js
+WARNING 2021-07-25 00:05:58,033 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2021-07-25 00:05:58,034 basehttp 154 "GET /js/host.js HTTP/1.1" 404 2649
+WARNING 2021-07-25 00:05:58,040 log 222 Not Found: /js/common.js
+WARNING 2021-07-25 00:05:58,041 basehttp 154 "GET /js/common.js HTTP/1.1" 404 2655
+WARNING 2021-07-25 00:05:58,046 log 222 Not Found: /js/index.js
+WARNING 2021-07-25 00:05:58,046 basehttp 154 "GET /js/index.js HTTP/1.1" 404 2652
+WARNING 2021-07-25 00:05:58,055 log 222 Not Found: /js/jquery.pagination.min.js
+WARNING 2021-07-25 00:05:58,055 basehttp 154 "GET /js/jquery.pagination.min.js HTTP/1.1" 404 2700
+INFO 2021-07-25 00:15:56,673 basehttp 154 "GET / HTTP/1.1" 200 12313
+WARNING 2021-07-25 00:15:56,698 log 222 Not Found: /md_css/monokai.css
+WARNING 2021-07-25 00:15:56,700 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2021-07-25 00:15:56,703 log 222 Not Found: /common/common.css
+WARNING 2021-07-25 00:15:56,705 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2021-07-25 00:15:56,709 log 222 Not Found: /common/jquery.pagination.css
+WARNING 2021-07-25 00:15:56,710 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+INFO 2021-07-25 00:15:57,817 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-07-25 00:15:57,827 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+WARNING 2021-07-25 00:15:57,838 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:15:57,838 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2021-07-25 00:15:58,101 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+WARNING 2021-07-25 00:15:58,130 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:15:58,131 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2021-07-25 00:17:36,956 basehttp 154 "GET / HTTP/1.1" 200 12321
+WARNING 2021-07-25 00:17:36,977 log 222 Not Found: /md_css/monokai.css
+WARNING 2021-07-25 00:17:36,983 log 222 Not Found: /common/common.css
+WARNING 2021-07-25 00:17:36,983 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2021-07-25 00:17:36,984 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2021-07-25 00:17:36,986 log 222 Not Found: /common/jquery.pagination.css
+WARNING 2021-07-25 00:17:36,987 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+WARNING 2021-07-25 00:17:36,993 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:17:36,994 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+WARNING 2021-07-25 00:17:37,038 log 222 Not Found: /img/1.jpg
+WARNING 2021-07-25 00:17:37,038 basehttp 154 "GET /img/1.jpg HTTP/1.1" 404 2646
+INFO 2021-07-25 00:17:37,813 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+INFO 2021-07-25 00:18:25,048 basehttp 154 "GET / HTTP/1.1" 200 12353
+WARNING 2021-07-25 00:18:25,076 log 222 Not Found: /md_css/monokai.css
+WARNING 2021-07-25 00:18:25,078 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2021-07-25 00:18:25,081 log 222 Not Found: /common/common.css
+WARNING 2021-07-25 00:18:25,083 log 222 Not Found: /common/jquery.pagination.css
+WARNING 2021-07-25 00:18:25,083 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2021-07-25 00:18:25,083 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+ERROR 2021-07-25 00:25:48,345 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\home\views.py", line 11, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'writeblog' not found. 'writeblog' is not a valid view function or pattern name.
+ERROR 2021-07-25 00:25:48,350 basehttp 154 "GET / HTTP/1.1" 500 137454
+INFO 2021-07-25 00:25:54,574 basehttp 154 "GET /imagecode/?uuid=b1722304-b0fe-4268-88e5-df471f68f985 HTTP/1.1" 200 3103
+INFO 2021-07-25 00:26:14,721 basehttp 154 "GET / HTTP/1.1" 200 12353
+WARNING 2021-07-25 00:26:14,749 log 222 Not Found: /md_css/monokai.css
+WARNING 2021-07-25 00:26:14,752 log 222 Not Found: /common/common.css
+WARNING 2021-07-25 00:26:14,754 log 222 Not Found: /common/jquery.pagination.css
+WARNING 2021-07-25 00:26:14,754 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
+WARNING 2021-07-25 00:26:14,755 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
+WARNING 2021-07-25 00:26:14,756 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
