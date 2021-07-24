@@ -120,3 +120,7 @@ WARNING 2021-07-23 23:25:54,428 log 222 Not Found: /register/js/common.js
 WARNING 2021-07-23 23:25:54,428 basehttp 154 "GET /register/js/common.js HTTP/1.1" 404 2175
 WARNING 2021-07-23 23:25:54,436 log 222 Not Found: /register/js/register.js
 WARNING 2021-07-23 23:25:54,436 basehttp 154 "GET /register/js/register.js HTTP/1.1" 404 2181
+INFO 2021-07-23 23:38:57,762 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-23 23:38:58,601 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+WARNING 2021-07-23 23:38:58,633 log 222 Not Found: /imagecode/
+WARNING 2021-07-23 23:38:58,634 basehttp 154 "GET /imagecode/?uuid=1cf8b6e4-8f59-4549-b242-55c4a07bd152 HTTP/1.1" 404 2184
