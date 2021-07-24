@@ -124,3 +124,207 @@ INFO 2021-07-23 23:38:57,762 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
 INFO 2021-07-23 23:38:58,601 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
 WARNING 2021-07-23 23:38:58,633 log 222 Not Found: /imagecode/
 WARNING 2021-07-23 23:38:58,634 basehttp 154 "GET /imagecode/?uuid=1cf8b6e4-8f59-4549-b242-55c4a07bd152 HTTP/1.1" 404 2184
+WARNING 2021-07-24 17:35:18,806 log 222 Not Found: /
+WARNING 2021-07-24 17:35:18,807 basehttp 154 "GET / HTTP/1.1" 404 2269
+WARNING 2021-07-24 17:35:19,199 log 222 Not Found: /favicon.ico
+WARNING 2021-07-24 17:35:19,200 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2320
+INFO 2021-07-24 17:40:07,058 basehttp 154 "GET /imagecode/?uuid=123 HTTP/1.1" 200 3037
+WARNING 2021-07-24 18:24:20,630 log 222 Not Found: /
+WARNING 2021-07-24 18:24:20,630 basehttp 154 "GET / HTTP/1.1" 404 2269
+INFO 2021-07-24 18:24:39,708 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-24 18:24:40,554 basehttp 154 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2021-07-24 18:24:40,617 basehttp 154 "GET /imagecode/?uuid=81a11f50-fb21-4f56-9651-630174cc5adb HTTP/1.1" 200 3231
+INFO 2021-07-24 18:24:42,514 basehttp 154 "GET /imagecode/?uuid=7c7a0fcb-87a2-4637-aa60-7692056864ab HTTP/1.1" 200 3049
+INFO 2021-07-24 18:24:45,127 basehttp 154 "GET /imagecode/?uuid=424c926c-1db2-4bf3-a262-55647f5f0fb8 HTTP/1.1" 200 3263
+INFO 2021-07-24 18:25:57,493 basehttp 154 "GET /imagecode/?uuid=150ad36a-043a-4b2f-a914-137b034c73af HTTP/1.1" 200 3465
+INFO 2021-07-24 18:48:30,662 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-24 18:48:30,789 basehttp 154 "GET /imagecode/?uuid=242398ab-088f-4625-9226-9295306869ea HTTP/1.1" 200 3367
+INFO 2021-07-24 18:49:06,104 basehttp 154 "GET /imagecode/?uuid=71a73b6c-498c-47c9-a5e2-722d1238d552 HTTP/1.1" 200 2722
+INFO 2021-07-24 18:49:07,185 basehttp 154 "GET /imagecode/?uuid=474987dc-3434-49b6-829a-3d2bd972b76c HTTP/1.1" 200 2851
+WARNING 2021-07-24 18:49:56,793 log 222 Not Found: /smscode/
+WARNING 2021-07-24 18:49:56,795 basehttp 154 "GET /smscode/?mobile=13333333333&image_code=st17&uuid=474987dc-3434-49b6-829a-3d2bd972b76c HTTP/1.1" 404 2396
+INFO 2021-07-24 18:50:02,910 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-24 18:50:02,989 basehttp 154 "GET /imagecode/?uuid=990484fc-d3d6-431c-a327-328630429e76 HTTP/1.1" 200 3264
+WARNING 2021-07-24 18:50:16,429 log 222 Not Found: /smscode/
+WARNING 2021-07-24 18:50:16,430 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=43ww&uuid=990484fc-d3d6-431c-a327-328630429e76 HTTP/1.1" 404 2396
+WARNING 2021-07-24 18:51:18,800 log 222 Not Found: /
+WARNING 2021-07-24 18:51:18,801 basehttp 154 "GET / HTTP/1.1" 404 2269
+INFO 2021-07-24 18:51:23,441 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-24 18:51:23,523 basehttp 154 "GET /imagecode/?uuid=52529faf-3369-4c07-b452-c1a605ae0da6 HTTP/1.1" 200 3224
+WARNING 2021-07-24 18:51:35,627 log 222 Not Found: /smscode/
+WARNING 2021-07-24 18:51:35,627 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=nl7j&uuid=52529faf-3369-4c07-b452-c1a605ae0da6 HTTP/1.1" 404 2396
+INFO 2021-07-24 18:58:34,624 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-24 18:58:34,712 basehttp 154 "GET /imagecode/?uuid=4d597dae-4183-4ba6-a8d2-e7528c81d27f HTTP/1.1" 200 3378
+INFO 2021-07-24 18:58:41,369 basehttp 154 "GET /imagecode/?uuid=b6b57214-daf3-40d0-8f0c-6d76189aac39 HTTP/1.1" 200 3280
+ERROR 2021-07-24 18:58:43,225 log 222 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 135, in _get_response
+    raise ValueError(
+ValueError: The view users.views.SmsCodeView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-07-24 18:58:43,226 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=qqqq&uuid=b6b57214-daf3-40d0-8f0c-6d76189aac39 HTTP/1.1" 500 63079
+WARNING 2021-07-24 19:00:19,252 log 222 Not Found: /
+WARNING 2021-07-24 19:00:19,252 basehttp 154 "GET / HTTP/1.1" 404 2440
+INFO 2021-07-24 19:00:20,532 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+INFO 2021-07-24 19:00:20,773 basehttp 154 "GET /imagecode/?uuid=6d6a99fe-29fc-4724-a473-0c0f79069d12 HTTP/1.1" 200 2997
+ERROR 2021-07-24 19:00:28,737 log 222 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 135, in _get_response
+    raise ValueError(
+ValueError: The view users.views.SmsCodeView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-07-24 19:00:28,739 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=qewe&uuid=6d6a99fe-29fc-4724-a473-0c0f79069d12 HTTP/1.1" 500 63079
+WARNING 2021-07-24 23:26:55,165 log 222 Not Found: /
+WARNING 2021-07-24 23:26:55,166 basehttp 154 "GET / HTTP/1.1" 404 2440
+INFO 2021-07-24 23:26:57,346 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+ERROR 2021-07-24 23:26:59,835 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 72, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\Python\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-07-24 23:26:59,841 basehttp 154 "GET /imagecode/?uuid=bef8cc79-e7bb-4deb-88af-54ba70fafc34 HTTP/1.1" 500 124233
+WARNING 2021-07-24 23:26:59,853 log 222 Not Found: /favicon.ico
+WARNING 2021-07-24 23:26:59,853 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2491
+INFO 2021-07-24 23:27:04,727 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+ERROR 2021-07-24 23:27:06,917 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 72, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\Python\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-07-24 23:27:06,920 basehttp 154 "GET /imagecode/?uuid=977ce1af-6b0c-4fbd-8ea6-ee5b6a74e8d0 HTTP/1.1" 500 124271
+ERROR 2021-07-24 23:27:14,815 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 72, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\Python\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-07-24 23:27:14,818 basehttp 154 "GET /imagecode/?uuid=be19a155-e983-4512-be08-02e373359e21 HTTP/1.1" 500 124277
+INFO 2021-07-24 23:27:29,030 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+ERROR 2021-07-24 23:27:31,161 log 222 Internal Server Error: /imagecode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\redis\connection.py", line 559, in connect
+    sock = self._connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 615, in _connect
+    raise err
+  File "D:\Python\lib\site-packages\redis\connection.py", line 603, in _connect
+    sock.connect(socket_address)
+ConnectionRefusedError: [WinError 10061] 由于目标计算机积极拒绝，无法连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 72, in get
+    redis_conn.setex('img:%s' % uuid, 300, text)
+  File "D:\Python\lib\site-packages\redis\client.py", line 1822, in setex
+    return self.execute_command('SETEX', name, time, value)
+  File "D:\Python\lib\site-packages\redis\client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "D:\Python\lib\site-packages\redis\connection.py", line 1192, in get_connection
+    connection.connect()
+  File "D:\Python\lib\site-packages\redis\connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error 10061 connecting to 127.0.0.1:6379. 由于目标计算机积极拒绝，无法连接。.
+ERROR 2021-07-24 23:27:31,165 basehttp 154 "GET /imagecode/?uuid=1459c2b6-6415-431d-bdcb-2fdbd545eeec HTTP/1.1" 500 117716
+INFO 2021-07-24 23:28:05,358 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+INFO 2021-07-24 23:28:05,463 basehttp 154 "GET /imagecode/?uuid=99262ca6-67b4-4c5a-a22d-ba94b40c4eac HTTP/1.1" 200 3198
+INFO 2021-07-24 23:31:35,774 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+INFO 2021-07-24 23:31:35,878 basehttp 154 "GET /imagecode/?uuid=248fc208-b2ba-4c78-b594-d50588212030 HTTP/1.1" 200 3121
+INFO 2021-07-24 23:31:44,060 basehttp 154 "GET /imagecode/?uuid=5f005798-01ba-4468-bc1f-723fd5b90b60 HTTP/1.1" 200 3627
