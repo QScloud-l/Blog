@@ -8,7 +8,7 @@ from django_redis import get_redis_connection
 import re
 from users.models import User
 from django.db import DatabaseError
-
+from django.http.response import HttpResponseBadRequest
 class RegisterView(View):
     """用户注册"""
 
@@ -41,17 +41,18 @@ class RegisterView(View):
             return HttpResponseBadRequest('两次输入的密码不一致')
 
         # 验证短信验证码
-        # redis_conn = get_redis_connection('default')
-        # sms_code_server = redis_conn.get('sms:%s' % mobile)
-        # if sms_code_server is None:
-        #     return HttpResponseBadRequest('短信验证码已过期')
-        # if smscode != sms_code_server.decode():
-        #     return HttpResponseBadRequest('短信验证码错误')
+        redis_conn = get_redis_connection('default')
+        sms_code_server = redis_conn.get('sms:%s' % mobile)
+        if sms_code_server is None:
+            return HttpResponseBadRequest('短信验证码已过期')
+        if smscode != sms_code_server.decode():
+            return HttpResponseBadRequest('短信验证码错误')
 
         # 保存注册数据
         try:
             user = User.objects.create_user(username=mobile, mobile=mobile, password=password)
-        except DatabaseError:
+        except DatabaseError as e:
+            logger.error(e)
             return HttpResponseBadRequest('注册失败')
 
         # 响应注册结果
@@ -119,4 +120,4 @@ class SmsCodeView(View):
         CCP().send_template_sms(mobile, [sms_code, 5],1)
 
         # 响应结果
-        return #JsonResponse({'code': RETCODE.OK, 'errmsg': '发送短信成功'})
+        return JsonResponse({'code': RETCODE.OK, 'errmsg': '发送短信成功'})

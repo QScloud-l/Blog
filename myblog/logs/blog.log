@@ -328,3 +328,41 @@ INFO 2021-07-24 23:28:05,463 basehttp 154 "GET /imagecode/?uuid=99262ca6-67b4-4c
 INFO 2021-07-24 23:31:35,774 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
 INFO 2021-07-24 23:31:35,878 basehttp 154 "GET /imagecode/?uuid=248fc208-b2ba-4c78-b594-d50588212030 HTTP/1.1" 200 3121
 INFO 2021-07-24 23:31:44,060 basehttp 154 "GET /imagecode/?uuid=5f005798-01ba-4468-bc1f-723fd5b90b60 HTTP/1.1" 200 3627
+INFO 2021-07-24 23:45:57,207 basehttp 154 "GET /imagecode/?uuid=c37ada10-8916-4cf0-8065-c3caaf65ddfc HTTP/1.1" 200 3174
+INFO 2021-07-24 23:45:59,348 basehttp 154 "GET /imagecode/?uuid=de4c7912-2483-49d2-8c88-073a93c69087 HTTP/1.1" 200 3538
+INFO 2021-07-24 23:46:06,385 views 116 778239
+ERROR 2021-07-24 23:46:06,815 log 222 Internal Server Error: /smscode/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 135, in _get_response
+    raise ValueError(
+ValueError: The view users.views.SmsCodeView didn't return an HttpResponse object. It returned None instead.
+ERROR 2021-07-24 23:46:06,818 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=9ywo&uuid=de4c7912-2483-49d2-8c88-073a93c69087 HTTP/1.1" 500 69624
+INFO 2021-07-24 23:48:25,560 basehttp 154 "GET /register/ HTTP/1.1" 200 5178
+INFO 2021-07-24 23:48:25,691 basehttp 154 "GET /imagecode/?uuid=606dcabf-9c3d-4702-8e63-f207ef7ad711 HTTP/1.1" 200 3022
+INFO 2021-07-24 23:48:41,623 views 116 639421
+INFO 2021-07-24 23:48:41,972 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=r7s4&uuid=606dcabf-9c3d-4702-8e63-f207ef7ad711 HTTP/1.1" 200 63
+WARNING 2021-07-24 23:49:11,382 log 222 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-07-24 23:49:11,382 basehttp 154 "POST /register/ HTTP/1.1" 403 2513
+WARNING 2021-07-24 23:50:28,723 log 222 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-07-24 23:50:28,724 basehttp 154 "POST /register/ HTTP/1.1" 403 2513
+INFO 2021-07-24 23:50:31,027 basehttp 154 "GET /imagecode/?uuid=74da3f22-0956-451a-afb2-98b557954004 HTTP/1.1" 200 2830
+INFO 2021-07-24 23:50:45,160 views 116 939878
+INFO 2021-07-24 23:50:45,408 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=43xq&uuid=74da3f22-0956-451a-afb2-98b557954004 HTTP/1.1" 200 63
+WARNING 2021-07-24 23:51:01,699 log 222 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-07-24 23:51:01,700 basehttp 154 "POST /register/ HTTP/1.1" 403 2513
+WARNING 2021-07-24 23:51:10,882 log 222 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-07-24 23:51:10,882 basehttp 154 "POST /register/ HTTP/1.1" 403 2513
+INFO 2021-07-24 23:51:12,022 basehttp 154 "GET /imagecode/?uuid=21fc6aad-ca97-416e-8e59-9d708456db12 HTTP/1.1" 200 3064
+INFO 2021-07-24 23:51:24,747 views 116 294999
+INFO 2021-07-24 23:51:24,979 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=dfl5&uuid=21fc6aad-ca97-416e-8e59-9d708456db12 HTTP/1.1" 200 63
+WARNING 2021-07-24 23:51:31,329 log 222 Forbidden (CSRF token missing or incorrect.): /register/
+WARNING 2021-07-24 23:51:31,330 basehttp 154 "POST /register/ HTTP/1.1" 403 2513
+WARNING 2021-07-24 23:55:22,642 log 222 Not Found: /
+WARNING 2021-07-24 23:55:22,643 basehttp 154 "GET / HTTP/1.1" 404 2440
+INFO 2021-07-24 23:55:37,130 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-24 23:55:37,252 basehttp 154 "GET /imagecode/?uuid=28f68502-2582-4465-be3d-d9b6341409d1 HTTP/1.1" 200 3051
+INFO 2021-07-24 23:55:45,851 basehttp 154 "GET /imagecode/?uuid=4c60837b-8ade-44ed-9e1d-df24cbc50256 HTTP/1.1" 200 3108
+INFO 2021-07-24 23:55:49,217 views 116 801017
+INFO 2021-07-24 23:55:49,420 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=sgji&uuid=4c60837b-8ade-44ed-9e1d-df24cbc50256 HTTP/1.1" 200 63
