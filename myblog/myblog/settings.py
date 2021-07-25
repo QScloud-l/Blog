@@ -190,3 +190,11 @@ LOGGING = {
 }
 
 AUTH_USER_MODEL = 'users.User'
+
+LOGIN_URL='/login/'
+
+# 图片保存media目录下
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+# 设置图片访问的统一路由
+MEDIA_URL = '/media/'

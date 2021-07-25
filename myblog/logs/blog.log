@@ -520,3 +520,497 @@ WARNING 2021-07-25 00:26:14,754 log 222 Not Found: /common/jquery.pagination.css
 WARNING 2021-07-25 00:26:14,754 basehttp 154 "GET /md_css/monokai.css HTTP/1.1" 404 2673
 WARNING 2021-07-25 00:26:14,755 basehttp 154 "GET /common/common.css HTTP/1.1" 404 2670
 WARNING 2021-07-25 00:26:14,756 basehttp 154 "GET /common/jquery.pagination.css HTTP/1.1" 404 2703
+INFO 2021-07-25 00:29:00,913 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 00:29:02,594 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-07-25 00:29:02,595 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-07-25 00:29:02,632 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-07-25 09:35:02,577 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 09:35:04,278 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-07-25 09:35:04,278 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-07-25 09:35:04,286 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+WARNING 2021-07-25 09:35:04,457 log 222 Not Found: /favicon.ico
+WARNING 2021-07-25 09:35:04,457 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2652
+INFO 2021-07-25 09:35:16,410 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 09:35:16,502 basehttp 154 "GET /imagecode/?uuid=d9144268-5c68-449a-9917-7b23091ac253 HTTP/1.1" 200 3293
+INFO 2021-07-25 09:35:31,169 views 116 897530
+INFO 2021-07-25 09:35:31,508 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=meby&uuid=d9144268-5c68-449a-9917-7b23091ac253 HTTP/1.1" 200 63
+ERROR 2021-07-25 09:35:49,354 views 55 (1062, "Duplicate entry '17858239518' for key 'tb_user.username'")
+WARNING 2021-07-25 09:35:49,355 log 222 Bad Request: /register/
+WARNING 2021-07-25 09:35:49,355 basehttp 154 "POST /register/ HTTP/1.1" 400 12
+INFO 2021-07-25 09:35:52,459 basehttp 154 "GET /imagecode/?uuid=a3e4bb36-d3db-4d5a-a8fb-a05f905264ba HTTP/1.1" 200 3269
+INFO 2021-07-25 09:37:00,976 views 116 376790
+INFO 2021-07-25 09:37:01,213 basehttp 154 "GET /smscode/?mobile=13111111111&image_code=fag5&uuid=a3e4bb36-d3db-4d5a-a8fb-a05f905264ba HTTP/1.1" 200 63
+INFO 2021-07-25 09:37:08,436 basehttp 154 "POST /register/ HTTP/1.1" 200 33
+INFO 2021-07-25 09:39:20,601 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 09:39:20,700 basehttp 154 "GET /imagecode/?uuid=5d9bcf91-f3f9-4b12-9ced-255f90957e23 HTTP/1.1" 200 3052
+INFO 2021-07-25 09:39:31,302 views 120 293851
+INFO 2021-07-25 09:39:31,519 basehttp 154 "GET /smscode/?mobile=13111111112&image_code=fdag&uuid=5d9bcf91-f3f9-4b12-9ced-255f90957e23 HTTP/1.1" 200 63
+INFO 2021-07-25 09:39:38,815 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-07-25 09:39:38,821 basehttp 154 "GET / HTTP/1.1" 200 12377
+WARNING 2021-07-25 09:39:42,866 log 222 Not Found: /center.html
+WARNING 2021-07-25 09:39:42,867 basehttp 154 "GET /center.html HTTP/1.1" 404 2652
+INFO 2021-07-25 09:50:00,071 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 09:55:22,472 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 09:55:23,301 basehttp 154 "GET /imagecode/?uuid=a8430fdb-53ce-431b-8fd8-17dd8ad4b486 HTTP/1.1" 200 3251
+WARNING 2021-07-25 09:55:26,150 basehttp 154 "GET /static/js/axios.min.map HTTP/1.1" 404 1672
+INFO 2021-07-25 09:55:27,071 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2021-07-25 09:56:08,627 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 09:56:08,717 basehttp 154 "GET /imagecode/?uuid=7d794118-bd54-4432-ab9e-b16bb7ed7791 HTTP/1.1" 200 3201
+INFO 2021-07-25 09:56:23,566 basehttp 154 "GET /imagecode/?uuid=ca8d3df7-2c00-4462-a777-0ef5ad2b826f HTTP/1.1" 200 3573
+INFO 2021-07-25 09:56:27,861 views 122 562157
+INFO 2021-07-25 09:56:28,204 basehttp 154 "GET /smscode/?mobile=13111111113&image_code=5udb&uuid=ca8d3df7-2c00-4462-a777-0ef5ad2b826f HTTP/1.1" 200 63
+INFO 2021-07-25 09:57:04,048 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-07-25 09:57:04,058 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 10:02:28,773 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 10:02:29,280 basehttp 154 "GET /imagecode/?uuid=23720389-1da6-4e9a-b758-5f5570e09536 HTTP/1.1" 200 3371
+INFO 2021-07-25 10:03:29,518 views 128 395638
+INFO 2021-07-25 10:03:29,732 basehttp 154 "GET /smscode/?mobile=13111111114&image_code=ynwt&uuid=23720389-1da6-4e9a-b758-5f5570e09536 HTTP/1.1" 200 63
+INFO 2021-07-25 10:04:08,406 basehttp 154 "POST /register/ HTTP/1.1" 302 0
+INFO 2021-07-25 10:04:08,415 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 10:38:26,195 basehttp 154 "GET /login HTTP/1.1" 301 0
+INFO 2021-07-25 10:38:26,213 basehttp 154 "GET /login/ HTTP/1.1" 200 3018
+WARNING 2021-07-25 10:38:26,246 log 222 Not Found: /login/bootstrap/css/bootstrap.min.css
+WARNING 2021-07-25 10:38:26,250 basehttp 154 "GET /login/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 2897
+WARNING 2021-07-25 10:38:26,252 log 222 Not Found: /login/js/axios-0.18.0.min.js
+WARNING 2021-07-25 10:38:26,257 log 222 Not Found: /login/js/vue-2.5.16.js
+WARNING 2021-07-25 10:38:26,260 log 222 Not Found: /login/js/host.js
+WARNING 2021-07-25 10:38:26,261 basehttp 154 "GET /login/js/axios-0.18.0.min.js HTTP/1.1" 404 2870
+WARNING 2021-07-25 10:38:26,264 log 222 Not Found: /login/js/common.js
+WARNING 2021-07-25 10:38:26,264 basehttp 154 "GET /login/js/vue-2.5.16.js HTTP/1.1" 404 2852
+WARNING 2021-07-25 10:38:26,264 basehttp 154 "GET /login/js/host.js HTTP/1.1" 404 2834
+WARNING 2021-07-25 10:38:26,266 basehttp 154 "GET /login/js/common.js HTTP/1.1" 404 2840
+WARNING 2021-07-25 10:38:26,268 log 222 Not Found: /login/js/login.js
+WARNING 2021-07-25 10:38:26,273 log 222 Not Found: /login/js/axios-0.18.0.min.js
+WARNING 2021-07-25 10:38:26,273 basehttp 154 "GET /login/js/login.js HTTP/1.1" 404 2837
+WARNING 2021-07-25 10:38:26,274 basehttp 154 "GET /login/js/axios-0.18.0.min.js HTTP/1.1" 404 2870
+WARNING 2021-07-25 10:38:26,292 log 222 Not Found: /login/js/host.js
+WARNING 2021-07-25 10:38:26,293 basehttp 154 "GET /login/js/host.js HTTP/1.1" 404 2834
+WARNING 2021-07-25 10:38:26,300 log 222 Not Found: /login/js/common.js
+WARNING 2021-07-25 10:38:26,301 basehttp 154 "GET /login/js/common.js HTTP/1.1" 404 2840
+WARNING 2021-07-25 10:38:26,310 log 222 Not Found: /login/js/login.js
+WARNING 2021-07-25 10:38:26,310 basehttp 154 "GET /login/js/login.js HTTP/1.1" 404 2837
+INFO 2021-07-25 10:41:01,150 basehttp 154 "GET /login/ HTTP/1.1" 200 3091
+INFO 2021-07-25 10:41:02,033 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+WARNING 2021-07-25 10:41:03,257 basehttp 154 "GET /static/register.html HTTP/1.1" 404 1663
+WARNING 2021-07-25 10:41:57,487 basehttp 154 "GET /static/register.html HTTP/1.1" 404 1663
+WARNING 2021-07-25 10:42:06,362 basehttp 154 "GET /static/register.html HTTP/1.1" 404 1663
+INFO 2021-07-25 10:42:08,163 basehttp 154 "GET /login/ HTTP/1.1" 200 3071
+WARNING 2021-07-25 10:42:09,313 log 222 Not Found: /login/register.html
+WARNING 2021-07-25 10:42:09,314 basehttp 154 "GET /login/register.html HTTP/1.1" 404 2843
+WARNING 2021-07-25 10:43:44,895 log 222 Not Found: /login/index.html
+WARNING 2021-07-25 10:43:44,896 basehttp 154 "GET /login/index.html HTTP/1.1" 404 2834
+WARNING 2021-07-25 10:46:35,042 log 222 Not Found: /login/index.html
+WARNING 2021-07-25 10:46:35,043 basehttp 154 "GET /login/index.html HTTP/1.1" 404 2834
+WARNING 2021-07-25 10:46:37,210 log 222 Not Found: /login/register.html
+WARNING 2021-07-25 10:46:37,210 basehttp 154 "GET /login/register.html HTTP/1.1" 404 2843
+WARNING 2021-07-25 10:48:06,279 log 222 Not Found: /login/register.html
+WARNING 2021-07-25 10:48:06,280 basehttp 154 "GET /login/register.html HTTP/1.1" 404 2843
+INFO 2021-07-25 10:48:09,622 basehttp 154 "GET /login/ HTTP/1.1" 200 3066
+INFO 2021-07-25 10:49:03,401 basehttp 154 "GET /login/ HTTP/1.1" 200 3066
+INFO 2021-07-25 10:49:05,487 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 10:49:05,558 basehttp 154 "GET /imagecode/?uuid=6c3173ab-6c53-43ae-8005-22cf4124e5d7 HTTP/1.1" 200 3052
+INFO 2021-07-25 11:03:18,935 basehttp 154 "GET /login/ HTTP/1.1" 200 3066
+WARNING 2021-07-25 11:03:35,533 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-07-25 11:03:35,534 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+WARNING 2021-07-25 11:04:42,830 log 222 Forbidden (CSRF token missing or incorrect.): /login/
+WARNING 2021-07-25 11:04:42,831 basehttp 154 "POST /login/ HTTP/1.1" 403 2513
+INFO 2021-07-25 11:04:44,503 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+INFO 2021-07-25 11:17:48,380 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:17:53,389 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:24:05,996 basehttp 154 "GET / HTTP/1.1" 200 12384
+INFO 2021-07-25 11:40:01,905 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:40:23,737 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:40:23,748 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:41:36,638 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:41:48,208 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:41:48,215 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:42:23,247 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:43:25,731 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 11:43:26,667 basehttp 154 "GET /imagecode/?uuid=f0a772c7-9581-427b-baa6-902e7db61823 HTTP/1.1" 200 3235
+INFO 2021-07-25 11:43:32,242 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+INFO 2021-07-25 11:43:38,412 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:43:38,418 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:43:41,407 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:43:41,413 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:43:44,032 basehttp 154 "GET / HTTP/1.1" 200 12391
+INFO 2021-07-25 11:43:44,731 basehttp 154 "GET / HTTP/1.1" 200 12391
+ERROR 2021-07-25 11:46:10,055 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\home\views.py", line 11, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-07-25 11:46:10,060 basehttp 154 "GET / HTTP/1.1" 500 138372
+ERROR 2021-07-25 11:46:12,292 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\home\views.py", line 11, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'login' not found. 'login' is not a valid view function or pattern name.
+ERROR 2021-07-25 11:46:12,294 basehttp 154 "GET / HTTP/1.1" 500 138372
+INFO 2021-07-25 11:47:19,191 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:52:12,179 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:52:23,189 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:52:27,844 basehttp 154 "GET /register/ HTTP/1.1" 200 5319
+INFO 2021-07-25 11:52:28,685 basehttp 154 "GET /imagecode/?uuid=ff77c36f-199f-4718-b467-4ecb2b430488 HTTP/1.1" 200 3128
+INFO 2021-07-25 11:52:33,181 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+INFO 2021-07-25 11:52:39,381 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:52:39,387 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:52:52,203 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:52:52,208 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:59:04,859 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:59:06,893 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 11:59:06,899 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 11:59:40,527 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+INFO 2021-07-25 12:00:00,999 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 12:00:01,009 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:02:04,887 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 12:02:04,895 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:02:43,924 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:51:46,752 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+INFO 2021-07-25 12:51:54,120 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 12:51:54,126 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:51:56,559 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:51:58,344 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 12:51:58,350 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:06,929 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:07,488 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:07,794 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:07,978 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:08,170 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:08,337 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:08,530 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:10,348 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:11,932 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:22,900 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:37,230 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:37,851 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:38,321 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:38,721 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:47,916 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:52:50,685 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-07-25 12:52:50,685 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-07-25 12:52:50,691 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-07-25 12:52:50,691 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-07-25 12:52:50,697 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-07-25 12:52:50,715 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-07-25 12:52:50,720 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-07-25 12:52:50,724 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-07-25 12:52:50,725 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-07-25 12:52:50,728 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-07-25 12:52:50,731 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-07-25 12:52:50,734 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-07-25 12:52:51,068 log 222 Not Found: /favicon.ico
+WARNING 2021-07-25 12:52:51,070 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 2988
+INFO 2021-07-25 12:53:13,341 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+INFO 2021-07-25 12:53:13,361 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-07-25 12:53:21,831 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 12:53:21,836 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 12:53:26,001 basehttp 154 "GET /logout/ HTTP/1.1" 302 0
+INFO 2021-07-25 12:53:26,007 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 13:03:03,464 basehttp 154 "GET /forgetpassword HTTP/1.1" 301 0
+INFO 2021-07-25 13:03:03,480 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5144
+WARNING 2021-07-25 13:03:03,503 log 222 Not Found: /forgetpassword/bootstrap/css/bootstrap.min.css
+WARNING 2021-07-25 13:03:03,506 log 222 Not Found: /forgetpassword/js/vue-2.5.16.js
+WARNING 2021-07-25 13:03:03,506 basehttp 154 "GET /forgetpassword/bootstrap/css/bootstrap.min.css HTTP/1.1" 404 3278
+WARNING 2021-07-25 13:03:03,508 log 222 Not Found: /forgetpassword/js/axios-0.18.0.min.js
+WARNING 2021-07-25 13:03:03,509 basehttp 154 "GET /forgetpassword/js/vue-2.5.16.js HTTP/1.1" 404 3233
+WARNING 2021-07-25 13:03:03,512 log 222 Not Found: /forgetpassword/js/host.js
+WARNING 2021-07-25 13:03:03,513 basehttp 154 "GET /forgetpassword/js/axios-0.18.0.min.js HTTP/1.1" 404 3251
+WARNING 2021-07-25 13:03:03,514 basehttp 154 "GET /forgetpassword/js/host.js HTTP/1.1" 404 3215
+WARNING 2021-07-25 13:03:03,521 log 222 Not Found: /forgetpassword/js/forget_password.js
+WARNING 2021-07-25 13:03:03,523 log 222 Not Found: /forgetpassword/js/common.js
+WARNING 2021-07-25 13:03:03,524 basehttp 154 "GET /forgetpassword/js/forget_password.js HTTP/1.1" 404 3248
+WARNING 2021-07-25 13:03:03,526 log 222 Not Found: /forgetpassword/img/image_code.png
+WARNING 2021-07-25 13:03:03,527 basehttp 154 "GET /forgetpassword/js/common.js HTTP/1.1" 404 3221
+WARNING 2021-07-25 13:03:03,528 basehttp 154 "GET /forgetpassword/img/image_code.png HTTP/1.1" 404 3239
+WARNING 2021-07-25 13:03:03,537 log 222 Not Found: /forgetpassword/js/forget_password.js
+WARNING 2021-07-25 13:03:03,538 basehttp 154 "GET /forgetpassword/js/forget_password.js HTTP/1.1" 404 3248
+INFO 2021-07-25 13:03:41,903 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-07-25 13:03:42,736 basehttp 154 "GET /static/js/forget_password.js HTTP/1.1" 200 6567
+INFO 2021-07-25 13:03:42,805 basehttp 154 "GET /imagecode/?uuid=76bc714d-eed4-44bc-b9fc-1bc1ab4412bf HTTP/1.1" 200 3323
+INFO 2021-07-25 13:08:17,913 basehttp 154 "GET /imagecode/?uuid=01e731e1-af04-45e1-88be-4fb1a8f6324e HTTP/1.1" 200 3068
+INFO 2021-07-25 13:08:30,526 basehttp 154 "GET /login/ HTTP/1.1" 200 3208
+WARNING 2021-07-25 13:08:32,252 log 222 Not Found: /login/forget_password.html
+WARNING 2021-07-25 13:08:32,253 basehttp 154 "GET /login/forget_password.html HTTP/1.1" 404 3218
+WARNING 2021-07-25 13:09:46,528 log 222 Not Found: /login/forget_password.html
+WARNING 2021-07-25 13:09:46,529 basehttp 154 "GET /login/forget_password.html HTTP/1.1" 404 3218
+ERROR 2021-07-25 13:09:49,845 log 222 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 144, in get
+    return render(request, 'login.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forget_password.html' not found. 'forget_password.html' is not a valid view function or pattern name.
+ERROR 2021-07-25 13:09:49,849 basehttp 154 "GET /login/ HTTP/1.1" 500 137683
+ERROR 2021-07-25 13:10:26,633 log 222 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 144, in get
+    return render(request, 'login.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forget_password' not found. 'forget_password' is not a valid view function or pattern name.
+ERROR 2021-07-25 13:10:26,638 basehttp 154 "GET /login/ HTTP/1.1" 500 138460
+ERROR 2021-07-25 13:10:27,494 log 222 Internal Server Error: /login/
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\users\views.py", line 144, in get
+    return render(request, 'login.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'forget_password' not found. 'forget_password' is not a valid view function or pattern name.
+ERROR 2021-07-25 13:10:27,496 basehttp 154 "GET /login/ HTTP/1.1" 500 138460
+INFO 2021-07-25 13:10:28,427 basehttp 154 "GET /imagecode/?uuid=eaace79b-01b6-43e3-a77f-c7868edc6a8c HTTP/1.1" 200 3359
+INFO 2021-07-25 13:11:55,772 basehttp 154 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-07-25 13:11:57,993 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-07-25 13:11:58,057 basehttp 154 "GET /imagecode/?uuid=df2f72b4-424f-4e0f-bf67-945f2516b7d9 HTTP/1.1" 200 3748
+INFO 2021-07-25 13:11:59,511 basehttp 154 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-07-25 13:12:00,521 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-07-25 13:12:00,577 basehttp 154 "GET /imagecode/?uuid=985584d9-0dc1-4c3a-b5d0-fd995a0f68db HTTP/1.1" 200 3642
+INFO 2021-07-25 13:12:02,434 basehttp 154 "GET /imagecode/?uuid=55fa08e3-7117-48e5-9459-5246c45876c7 HTTP/1.1" 200 3160
+INFO 2021-07-25 13:12:03,253 basehttp 154 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-07-25 13:19:52,627 base 91 Method Not Allowed (GET): /forgetpassword/
+WARNING 2021-07-25 13:19:52,627 log 222 Method Not Allowed: /forgetpassword/
+WARNING 2021-07-25 13:19:52,627 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 405 0
+WARNING 2021-07-25 13:19:53,981 base 91 Method Not Allowed (GET): /forgetpassword/
+WARNING 2021-07-25 13:19:53,981 log 222 Method Not Allowed: /forgetpassword/
+WARNING 2021-07-25 13:19:53,982 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 405 0
+INFO 2021-07-25 13:20:00,854 basehttp 154 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-07-25 13:20:02,155 base 91 Method Not Allowed (GET): /forgetpassword/
+WARNING 2021-07-25 13:20:02,155 log 222 Method Not Allowed: /forgetpassword/
+WARNING 2021-07-25 13:20:02,156 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 405 0
+INFO 2021-07-25 13:20:22,958 basehttp 154 "GET /login/ HTTP/1.1" 200 3202
+WARNING 2021-07-25 13:20:24,731 base 91 Method Not Allowed (GET): /forgetpassword/
+WARNING 2021-07-25 13:20:24,731 log 222 Method Not Allowed: /forgetpassword/
+WARNING 2021-07-25 13:20:24,732 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 405 0
+INFO 2021-07-25 13:22:00,992 basehttp 154 "GET /forgetpassword/ HTTP/1.1" 200 5324
+INFO 2021-07-25 13:22:01,077 basehttp 154 "GET /imagecode/?uuid=e81df46d-330d-4bde-85c2-9a9922075817 HTTP/1.1" 200 3234
+INFO 2021-07-25 13:22:10,892 basehttp 154 "GET /imagecode/?uuid=0cf25dd6-9ff7-41ca-a50d-f475badad659 HTTP/1.1" 200 2726
+INFO 2021-07-25 13:22:12,092 basehttp 154 "GET /imagecode/?uuid=62fb2183-c596-416c-9aff-738e71236ae3 HTTP/1.1" 200 3117
+INFO 2021-07-25 13:22:17,776 views 128 318984
+INFO 2021-07-25 13:22:18,168 basehttp 154 "GET /smscode/?mobile=17858239518&image_code=ivpb&uuid=62fb2183-c596-416c-9aff-738e71236ae3 HTTP/1.1" 200 63
+INFO 2021-07-25 13:22:24,103 basehttp 154 "POST /forgetpassword/ HTTP/1.1" 302 0
+INFO 2021-07-25 13:22:24,108 basehttp 154 "GET /login/ HTTP/1.1" 200 3202
+INFO 2021-07-25 13:22:30,951 basehttp 154 "POST /login/ HTTP/1.1" 302 0
+INFO 2021-07-25 13:22:30,956 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 13:22:30,978 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-07-25 15:35:26,955 basehttp 154 "GET / HTTP/1.1" 200 12377
+INFO 2021-07-25 15:35:27,188 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+WARNING 2021-07-25 15:35:29,338 log 222 Not Found: /center.html
+WARNING 2021-07-25 15:35:29,338 basehttp 154 "GET /center.html HTTP/1.1" 404 3342
+ERROR 2021-07-25 15:37:48,219 log 222 Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\Python\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 68, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "D:\Python\lib\site-packages\django\views\generic\base.py", line 88, in dispatch
+    return handler(request, *args, **kwargs)
+  File "D:\webspace\iGEM\pywork\Blog\myblog\home\views.py", line 11, in get
+    return render(request, 'index.html')
+  File "D:\Python\lib\site-packages\django\shortcuts.py", line 36, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Python\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Python\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 937, in render
+    bit = node.render_annotated(context)
+  File "D:\Python\lib\site-packages\django\template\base.py", line 904, in render_annotated
+    return self.render(context)
+  File "D:\Python\lib\site-packages\django\template\defaulttags.py", line 442, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "D:\Python\lib\site-packages\django\urls\base.py", line 90, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "D:\Python\lib\site-packages\django\urls\resolvers.py", line 622, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'writeblog' not found. 'writeblog' is not a valid view function or pattern name.
+ERROR 2021-07-25 15:37:48,224 basehttp 154 "GET / HTTP/1.1" 500 141173
+INFO 2021-07-25 15:38:39,840 basehttp 154 "GET / HTTP/1.1" 200 12372
+INFO 2021-07-25 15:38:43,090 basehttp 154 "GET /center/ HTTP/1.1" 200 4278
+INFO 2021-07-25 15:38:44,319 basehttp 154 "GET /static/js/center.js HTTP/1.1" 200 522
+INFO 2021-07-25 15:38:44,320 basehttp 154 "GET /static/img/mei.png HTTP/1.1" 200 230847
+INFO 2021-07-25 15:49:10,028 basehttp 154 "GET / HTTP/1.1" 200 12372
+INFO 2021-07-25 15:49:12,843 basehttp 154 "GET /static/common/jquery.pagination.css HTTP/1.1" 200 523
+INFO 2021-07-25 15:49:12,849 basehttp 154 "GET /static/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+INFO 2021-07-25 15:49:12,851 basehttp 154 "GET /static/common/common.css HTTP/1.1" 200 381
+INFO 2021-07-25 15:49:12,855 basehttp 154 "GET /static/md_css/monokai.css HTTP/1.1" 200 4118
+INFO 2021-07-25 15:49:12,859 basehttp 154 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2021-07-25 15:49:12,908 basehttp 154 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2021-07-25 15:49:12,909 basehttp 154 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2021-07-25 15:49:12,913 basehttp 154 "GET /static/js/host.js HTTP/1.1" 200 35
+INFO 2021-07-25 15:49:12,918 basehttp 154 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2021-07-25 15:49:12,924 basehttp 154 "GET /static/js/index.js HTTP/1.1" 200 530
+INFO 2021-07-25 15:49:12,925 basehttp 154 "GET /static/js/jquery.pagination.min.js HTTP/1.1" 200 2935
+INFO 2021-07-25 15:49:12,944 basehttp 154 "GET /static/img/1.jpg HTTP/1.1" 200 78682
+WARNING 2021-07-25 15:49:13,225 log 222 Not Found: /favicon.ico
+WARNING 2021-07-25 15:49:13,225 basehttp 154 "GET /favicon.ico HTTP/1.1" 404 3342
+INFO 2021-07-25 15:49:20,957 basehttp 154 "GET /center HTTP/1.1" 301 0
+INFO 2021-07-25 15:49:20,962 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+WARNING 2021-07-25 15:49:20,967 log 222 Not Found: /accounts/login/
+WARNING 2021-07-25 15:49:20,967 basehttp 154 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3368
+WARNING 2021-07-25 15:49:50,743 log 222 Not Found: /accounts/login/
+WARNING 2021-07-25 15:49:50,743 basehttp 154 "GET /accounts/login/?next=/center/ HTTP/1.1" 404 3368
+INFO 2021-07-25 15:49:57,693 basehttp 154 "GET /center/ HTTP/1.1" 302 0
+INFO 2021-07-25 15:49:57,705 basehttp 154 "GET /login/?next=/center/ HTTP/1.1" 200 3202
+INFO 2021-07-25 15:49:58,579 basehttp 154 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2021-07-25 16:05:46,920 basehttp 154 "GET /center/ HTTP/1.1" 200 4300
+INFO 2021-07-25 16:16:20,440 basehttp 154 "GET /center/ HTTP/1.1" 200 4300
+INFO 2021-07-25 16:16:31,214 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-07-25 16:16:31,240 basehttp 154 "GET /center/ HTTP/1.1" 200 4305
+INFO 2021-07-25 16:16:38,537 basehttp 154 "GET / HTTP/1.1" 200 12372
+INFO 2021-07-25 16:16:38,561 basehttp 154 "GET /static/js/index.js HTTP/1.1" 304 0
+INFO 2021-07-25 16:16:41,039 basehttp 154 "GET /center/ HTTP/1.1" 200 4305
+INFO 2021-07-25 16:17:46,809 basehttp 154 "POST /center/ HTTP/1.1" 302 0
+INFO 2021-07-25 16:17:46,838 basehttp 154 "GET /center/ HTTP/1.1" 200 4362
+WARNING 2021-07-25 16:17:46,859 log 222 Not Found: /center/avatar/20210725/ºÚÃ¨Ò¹Ä§Å®Íõ_2.png
+WARNING 2021-07-25 16:17:46,861 basehttp 154 "GET /center/avatar/20210725/%E9%BB%91%E7%8C%AB%E5%A4%9C%E9%AD%94%E5%A5%B3%E7%8E%8B_2.png HTTP/1.1" 404 3486
